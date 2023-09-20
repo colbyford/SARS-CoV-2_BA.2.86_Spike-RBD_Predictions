@@ -24,8 +24,4 @@ variant_comparisons
 
 
 
-kruskal.test(HADDOCK.score ~ Variant, data = df %>% filter(Variant %in% c("WT", "BA.2.86")))
-
-
-pairwise.wilcox.test(df$HADDOCK.score, df$Variant,
-                     p.adjust.method = "BH")
+# kruskal.test(HADDOCK.score ~ Variant, data = df %>% filter(Variant %in% c("WT", "BA.2.86")))
