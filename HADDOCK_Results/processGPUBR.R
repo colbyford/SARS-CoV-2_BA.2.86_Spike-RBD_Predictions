@@ -22,6 +22,5 @@ had_boxplot
 
 variant_comparisons
 
-
-
+## Compute single KW value
 # kruskal.test(HADDOCK.score ~ Variant, data = df %>% filter(Variant %in% c("WT", "BA.2.86")))
