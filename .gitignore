@@ -48,3 +48,4 @@ po/*~
 # RStudio Connect folder
 rsconnect/
 HADDOCK_Results/.DS_Store
+.DS_Store
