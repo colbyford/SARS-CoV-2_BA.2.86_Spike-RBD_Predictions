@@ -2,7 +2,7 @@
 
 <h3 align="right">Shirish Yasa, Sayal Guirales, Denis Jacob Machado, Colby T. Ford, and Daniel Janies</h3>
 
-Preprint: https://www.biorxiv.org/content/10.1101/2023.11.22.568364v1
+Preprint: https://www.biorxiv.org/content/10.1101/2023.11.22.568364
 
 ## Abstract
 
