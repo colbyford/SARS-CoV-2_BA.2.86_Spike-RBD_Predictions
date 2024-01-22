@@ -1,4 +1,4 @@
-# Predicting Antibody and ACE2 Affinity for SARS-CoV-2 BA.2.86 with _In Silico_ Protein Modeling and Docking
+# Predicting Antibody and ACE2 Affinity for SARS-CoV-2 BA.2.86 and JN.1 with _In Silico_ Protein Modeling and Docking
 
 <h3 align="right">Shirish Yasa, Sayal Guirales, Denis Jacob Machado, Colby T. Ford, and Daniel Janies</h3>
 
