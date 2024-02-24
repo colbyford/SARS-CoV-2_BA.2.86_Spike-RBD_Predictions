@@ -1,7 +1,7 @@
 #!/usr/local/bin/Rscript
 
 ## Working directory
-#setwd("~/Desktop/Projects/Drug_Development/R_code")
+#setwd(".")
 
 
 ## Libraries
@@ -9,7 +9,7 @@ library(dplyr)
 library(ggplot2)
 library(ggpubr)
 
-df <- read.csv("HADDOCK_Results_FINAL.csv")
+df <- read.csv("../FinalTables/HADDOCK_Results_FINAL.csv")
 variant_comparisons <- combn(c("WT", "XBB.1.5", "BA.2", "BA.1/B.1.1.529", "BA.2.86", "JN.1"), 2, simplify = FALSE)
 var_order <- c('WT', 'BA.1/B.1.1.529', 'BA.2', 'XBB.1.5', 'BA.2.86', 'JN.1') 
 
