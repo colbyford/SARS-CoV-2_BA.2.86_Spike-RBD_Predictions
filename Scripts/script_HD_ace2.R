@@ -9,7 +9,7 @@ library(dplyr)
 library(ggplot2)
 library(ggpubr)
 
-df <- read.csv("ACE2_HADDOCK_FINAL.csv")
+df <- read.csv("/Users/sayalguirales/Documents/GitHub/SARS-CoV-2_BA.2.86_Spike-RBD_Predictions/FinalTables/ACE2_HADDOCK_FINAL.csv")
 variant_comparisons <- combn(c("WT", "XBB.1.5", "BA.2", "BA.1/B.1.1.529", "BA.2.86", "JN.1"), 2, simplify = FALSE)
 var_order <- c('WT', 'BA.1/B.1.1.529', 'BA.2', 'XBB.1.5', 'BA.2.86', 'JN.1') 
 
