@@ -5,33 +5,4 @@
 Preprint: https://www.biorxiv.org/content/10.1101/2023.11.22.568364
 
 ## Abstract
-
-The emergence of the Omicron sublineage of SARS-CoV-2 virus
-BA.2.86 (nicknamed “Pirola”) has raised concerns about its potential
-impact on public health and personal health as it has
-many mutations with respect to previous variants. We conducted
-an in silico analysis of neutralizing antibody binding to
-BA.2.86. Selected antibodies came from patients who were vaccinated
-and/or infected. We predicted binding affinity between
-BA.2.86 and antibodies. We also predicted the binding affinity
-between the same antibodies and several previous SARS-CoV-
-2 variants (Wuhan and Omicron descendants BA.1, BA.2, and
-XBB.1.5). Additionally, we examined binding affinity between
-BA.2.86 and human angiotensin converting enzyme 2 (ACE2)
-receptor, a cell surface protein crucial for viral entry. We found
-no statistically significant difference in binding affinity between
-BA.2.86 and other variants, indicating a similar immune response.
-These findings contradict media reports of BA.2.86’s
-high immune evasion potential based on its mutations. We discuss
-the implications of our findings and highlight the need for
-modeling and docking studies to go above and beyond mutation
-and basic serological neutralization analysis. Future research
-in this area will benefit from increased structural analyses of
-memory B-cell derived antibodies and should emphasize the importance
-of choosing appropriate samples for in silico studies to
-assess protection provided by vaccination and infection. This
-research contributes to understanding the BA.2.86 variant’s potential
-impact on public health. Moreover, we introduce new
-methodologies for predictive medicine in ongoing efforts to combat
-the evolving SARS-CoV-2 pandemic and prepare for other
-hazards.
+The emergence of SARS-CoV-2 lineages derived from Omicron, including BA.2.86 (nicknamed “Pirola”) and its relative, JN.1, has raised concerns about their potential impact on public and personal health due to numerous novel mutations. Despite this, predicting their implications based solely on mutation counts proves challenging. Empirical evidence of JN.1’s increased immune evasion capacity in relation to previous variants is mixed. To improve predictions beyond what is possible based solely on mutation counts, we conducted extensive in silico analyses on the binding affinity between the RBD of different SARS-CoV-2 variants (Wuhan-Hu-1, BA.1/B.1.1.529, BA.2, XBB.1.5, BA.2.86, and JN.1) and neutralizing antibodies from vaccinated or infected individuals, as well as the human angiotensin converting enzyme 2 (ACE2) receptor. We observed no statistically significant difference in binding affinity between BA.2.86 or JN.1 and other variants. Therefore, we conclude that the new SARS-CoV-2 variants have no pronounced immune escape or infection capacity compared to previous variants. However, minor reductions in binding affinity for both the antibodies and ACE2 were noted for JN.1. We discuss the implications of the in silico findings and highlight the need for modeling and docking studies to go above and beyond mutation and basic serological neutralization analysis. Future research in this area will benefit from increased structural analyses of memory B-cell derived antibodies and should emphasize the importance of choosing appropriate samples for in silico studies to assess protection provided by vaccination and infection. This research contributes to understanding the BA.2.86 and JN.1 variants’ potential impact on public health. Moreover, we introduce new methodologies for predictive medicine in ongoing efforts to combat the evolving SARS-CoV-2 pandemic and prepare for other hazards.
