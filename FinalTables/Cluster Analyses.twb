@@ -1,0 +1,1728 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20201.20.0614.2321                               -->
+<workbook original-version='18.1' source-build='2020.1.5 (20201.20.0614.2321)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <style>
+    <style-rule element='all'>
+      <format attr='font-family' value='Arial' />
+    </style-rule>
+  </style>
+  <datasources>
+    <datasource caption='HADDOCK_Results_FINAL' inline='true' name='federated.10n2vsu0xneyub16owlh618cyk67' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='HADDOCK_Results_FINAL' name='textscan.1b2amqz0ud5gft14qxw1k0jcsqa1'>
+            <connection class='textscan' directory='C:/Users/Colby/Documents/GitHub/SARS-CoV-2_BA.2.86_Spike-RBD_Predictions/FinalTables' filename='HADDOCK_Results_FINAL.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.1b2amqz0ud5gft14qxw1k0jcsqa1' name='HADDOCK_Results_FINAL.csv' table='[HADDOCK_Results_FINAL#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='string' name='Antibody Name' ordinal='0' />
+            <column datatype='string' name='Fab PDB' ordinal='1' />
+            <column datatype='string' name='Variant' ordinal='2' />
+            <column datatype='string' name='Spike RBD' ordinal='3' />
+            <column datatype='string' name='Spike RBD PDB' ordinal='4' />
+            <column datatype='string' name='HADDOCK Job Name' ordinal='5' />
+            <column datatype='string' name='Fab Active Residues' ordinal='6' />
+            <column datatype='string' name='RBD Active Residues' ordinal='7' />
+            <column datatype='string' name='Submitted' ordinal='8' />
+            <column datatype='integer' name='Cluster' ordinal='9' />
+            <column datatype='string' name='Job Tar File' ordinal='10' />
+            <column datatype='real' name='HADDOCK score' ordinal='11' />
+            <column datatype='real' name='HADDOCK score CB' ordinal='12' />
+            <column datatype='integer' name='Cluster size' ordinal='13' />
+            <column datatype='real' name='RMSD from the overall lowest-energy structure' ordinal='14' />
+            <column datatype='real' name='RMSD from the overall lowest-energy structure (+/-)' ordinal='15' />
+            <column datatype='real' name='Van der Waals energy' ordinal='16' />
+            <column datatype='real' name='Van der Waals energy (+/-)' ordinal='17' />
+            <column datatype='real' name='Electrostatic energy' ordinal='18' />
+            <column datatype='real' name='Electrostatic energy (+/-)' ordinal='19' />
+            <column datatype='real' name='Desolvation energy' ordinal='20' />
+            <column datatype='real' name='Desolvation energy (+/-)' ordinal='21' />
+            <column datatype='real' name='Restraints violation energy' ordinal='22' />
+            <column datatype='real' name='Restraints violation energy (+/-)' ordinal='23' />
+            <column datatype='real' name='Buried Surface Area' ordinal='24' />
+            <column datatype='real' name='Surface Area (+/-)' ordinal='25' />
+            <column datatype='real' name='Z-Score' ordinal='26' />
+            <column datatype='real' name='prodigy_deltaG_kcalpermol' ordinal='27' />
+            <column datatype='real' name='prodigy_dissociation_constant_M' ordinal='28' />
+            <column datatype='real' name='prodigy_deltaG_kcalpermol_37C' ordinal='29' />
+            <column datatype='real' name='prodigy_dissociation_constant_M_37C' ordinal='30' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[HADDOCK_Results_FINAL.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Antibody Name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Antibody Name]</local-name>
+            <parent-name>[HADDOCK_Results_FINAL.csv]</parent-name>
+            <remote-alias>Antibody Name</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Fab PDB</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Fab PDB]</local-name>
+            <parent-name>[HADDOCK_Results_FINAL.csv]</parent-name>
+            <remote-alias>Fab PDB</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Variant</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Variant]</local-name>
+            <parent-name>[HADDOCK_Results_FINAL.csv]</parent-name>
+            <remote-alias>Variant</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Spike RBD</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Spike RBD]</local-name>
+            <parent-name>[HADDOCK_Results_FINAL.csv]</parent-name>
+            <remote-alias>Spike RBD</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Spike RBD PDB</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Spike RBD PDB]</local-name>
+            <parent-name>[HADDOCK_Results_FINAL.csv]</parent-name>
+            <remote-alias>Spike RBD PDB</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>HADDOCK Job Name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[HADDOCK Job Name]</local-name>
+            <parent-name>[HADDOCK_Results_FINAL.csv]</parent-name>
+            <remote-alias>HADDOCK Job Name</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Fab Active Residues</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Fab Active Residues]</local-name>
+            <parent-name>[HADDOCK_Results_FINAL.csv]</parent-name>
+            <remote-alias>Fab Active Residues</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>RBD Active Residues</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[RBD Active Residues]</local-name>
+            <parent-name>[HADDOCK_Results_FINAL.csv]</parent-name>
+            <remote-alias>RBD Active Residues</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Submitted</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Submitted]</local-name>
+            <parent-name>[HADDOCK_Results_FINAL.csv]</parent-name>
+            <remote-alias>Submitted</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Cluster</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Cluster]</local-name>
+            <parent-name>[HADDOCK_Results_FINAL.csv]</parent-name>
+            <remote-alias>Cluster</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Job Tar File</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Job Tar File]</local-name>
+            <parent-name>[HADDOCK_Results_FINAL.csv]</parent-name>
+            <remote-alias>Job Tar File</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>HADDOCK score</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[HADDOCK score]</local-name>
+            <parent-name>[HADDOCK_Results_FINAL.csv]</parent-name>
+            <remote-alias>HADDOCK score</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>HADDOCK score CB</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[HADDOCK score CB]</local-name>
+            <parent-name>[HADDOCK_Results_FINAL.csv]</parent-name>
+            <remote-alias>HADDOCK score CB</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Cluster size</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Cluster size]</local-name>
+            <parent-name>[HADDOCK_Results_FINAL.csv]</parent-name>
+            <remote-alias>Cluster size</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>RMSD from the overall lowest-energy structure</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[RMSD from the overall lowest-energy structure]</local-name>
+            <parent-name>[HADDOCK_Results_FINAL.csv]</parent-name>
+            <remote-alias>RMSD from the overall lowest-energy structure</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>RMSD from the overall lowest-energy structure (+/-)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[RMSD from the overall lowest-energy structure (+/-)]</local-name>
+            <parent-name>[HADDOCK_Results_FINAL.csv]</parent-name>
+            <remote-alias>RMSD from the overall lowest-energy structure (+/-)</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Van der Waals energy</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Van der Waals energy]</local-name>
+            <parent-name>[HADDOCK_Results_FINAL.csv]</parent-name>
+            <remote-alias>Van der Waals energy</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Van der Waals energy (+/-)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Van der Waals energy (+/-)]</local-name>
+            <parent-name>[HADDOCK_Results_FINAL.csv]</parent-name>
+            <remote-alias>Van der Waals energy (+/-)</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Electrostatic energy</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Electrostatic energy]</local-name>
+            <parent-name>[HADDOCK_Results_FINAL.csv]</parent-name>
+            <remote-alias>Electrostatic energy</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Electrostatic energy (+/-)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Electrostatic energy (+/-)]</local-name>
+            <parent-name>[HADDOCK_Results_FINAL.csv]</parent-name>
+            <remote-alias>Electrostatic energy (+/-)</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Desolvation energy</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Desolvation energy]</local-name>
+            <parent-name>[HADDOCK_Results_FINAL.csv]</parent-name>
+            <remote-alias>Desolvation energy</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Desolvation energy (+/-)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Desolvation energy (+/-)]</local-name>
+            <parent-name>[HADDOCK_Results_FINAL.csv]</parent-name>
+            <remote-alias>Desolvation energy (+/-)</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Restraints violation energy</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Restraints violation energy]</local-name>
+            <parent-name>[HADDOCK_Results_FINAL.csv]</parent-name>
+            <remote-alias>Restraints violation energy</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Restraints violation energy (+/-)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Restraints violation energy (+/-)]</local-name>
+            <parent-name>[HADDOCK_Results_FINAL.csv]</parent-name>
+            <remote-alias>Restraints violation energy (+/-)</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Buried Surface Area</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Buried Surface Area]</local-name>
+            <parent-name>[HADDOCK_Results_FINAL.csv]</parent-name>
+            <remote-alias>Buried Surface Area</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Surface Area (+/-)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Surface Area (+/-)]</local-name>
+            <parent-name>[HADDOCK_Results_FINAL.csv]</parent-name>
+            <remote-alias>Surface Area (+/-)</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Z-Score</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Z-Score]</local-name>
+            <parent-name>[HADDOCK_Results_FINAL.csv]</parent-name>
+            <remote-alias>Z-Score</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>prodigy_deltaG_kcalpermol</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[prodigy_deltaG_kcalpermol]</local-name>
+            <parent-name>[HADDOCK_Results_FINAL.csv]</parent-name>
+            <remote-alias>prodigy_deltaG_kcalpermol</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>prodigy_dissociation_constant_M</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[prodigy_dissociation_constant_M]</local-name>
+            <parent-name>[HADDOCK_Results_FINAL.csv]</parent-name>
+            <remote-alias>prodigy_dissociation_constant_M</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>prodigy_deltaG_kcalpermol_37C</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[prodigy_deltaG_kcalpermol_37C]</local-name>
+            <parent-name>[HADDOCK_Results_FINAL.csv]</parent-name>
+            <remote-alias>prodigy_deltaG_kcalpermol_37C</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>prodigy_dissociation_constant_M_37C</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[prodigy_dissociation_constant_M_37C]</local-name>
+            <parent-name>[HADDOCK_Results_FINAL.csv]</parent-name>
+            <remote-alias>prodigy_dissociation_constant_M_37C</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column aggregation='None' datatype='integer' name='[Cluster (bin)]' role='dimension' type='quantitative'>
+        <calculation class='bin' decimals='0' formula='[Cluster]' peg='0' size='1' />
+      </column>
+      <column datatype='integer' name='[Cluster]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+        <calculation class='tableau' formula='1' />
+      </column>
+      <column caption='prodigy deltaG kcalpermol' datatype='real' name='[prodigy_deltaG_kcalpermol]' role='measure' type='quantitative' />
+      <column caption='prodigy deltaG kcalpermol 37C' datatype='real' name='[prodigy_deltaG_kcalpermol_37C]' role='measure' type='quantitative' />
+      <column caption='prodigy dissociation constant M' datatype='real' name='[prodigy_dissociation_constant_M]' role='measure' type='quantitative' />
+      <column caption='prodigy dissociation constant M 37C' datatype='real' name='[prodigy_dissociation_constant_M_37C]' role='measure' type='quantitative' />
+      <layout dim-ordering='alphabetic' dim-percentage='0.444574' measure-ordering='alphabetic' measure-percentage='0.555426' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+    </datasource>
+    <datasource caption='ACE2_HADDOCK_FINAL' inline='true' name='federated.0z9r3wn0od9g4s1fp5p59076ip7q' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='ACE2_HADDOCK_FINAL' name='textscan.06bduwj1gw9ktf1d5q4k1136i89k'>
+            <connection class='textscan' directory='C:/Users/Colby/Documents/GitHub/SARS-CoV-2_BA.2.86_Spike-RBD_Predictions/FinalTables' filename='ACE2_HADDOCK_FINAL.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.06bduwj1gw9ktf1d5q4k1136i89k' name='ACE2_HADDOCK_FINAL.csv' table='[ACE2_HADDOCK_FINAL#csv]' type='table'>
+          <columns character-set='windows-1252' header='yes' locale='en_US' separator=','>
+            <column datatype='string' name='Protein Name' ordinal='0' />
+            <column datatype='string' name='ACE2 PDB' ordinal='1' />
+            <column datatype='string' name='Variant' ordinal='2' />
+            <column datatype='string' name='Spike RBD' ordinal='3' />
+            <column datatype='string' name='Spike RBD PDB' ordinal='4' />
+            <column datatype='string' name='HADDOCK Job Name' ordinal='5' />
+            <column datatype='string' name='ACE2 Active Residues' ordinal='6' />
+            <column datatype='string' name='RBD Active Residues' ordinal='7' />
+            <column datatype='string' name='Submitted' ordinal='8' />
+            <column datatype='integer' name='Cluster' ordinal='9' />
+            <column datatype='string' name='Job Tar File' ordinal='10' />
+            <column datatype='real' name='HADDOCK score' ordinal='11' />
+            <column datatype='real' name='HADDOCK score (+/-)' ordinal='12' />
+            <column datatype='integer' name='Cluster size' ordinal='13' />
+            <column datatype='real' name='RMSD from the overall lowest-energy structure' ordinal='14' />
+            <column datatype='real' name='RMSD from the overall lowest-energy structure (+/-)' ordinal='15' />
+            <column datatype='real' name='Van der Waals energy' ordinal='16' />
+            <column datatype='real' name='Van der Waals energy (+/-)' ordinal='17' />
+            <column datatype='real' name='Electrostatic energy' ordinal='18' />
+            <column datatype='real' name='Electrostatic energy (+/-)' ordinal='19' />
+            <column datatype='real' name='Desolvation energy' ordinal='20' />
+            <column datatype='real' name='Desolvation energy (+/-)' ordinal='21' />
+            <column datatype='real' name='Restraints violation energy' ordinal='22' />
+            <column datatype='real' name='Restraints violation energy (+/-)' ordinal='23' />
+            <column datatype='real' name='Buried Surface Area' ordinal='24' />
+            <column datatype='real' name='Surface Area (+/-)' ordinal='25' />
+            <column datatype='real' name='Z-Score' ordinal='26' />
+            <column datatype='real' name='prodigy_deltaG_kcalpermol' ordinal='27' />
+            <column datatype='real' name='prodigy_dissociation_constant_M' ordinal='28' />
+            <column datatype='real' name='prodigy_deltaG_kcalpermol_37C' ordinal='29' />
+            <column datatype='real' name='prodigy_dissociation_constant_M_37C' ordinal='30' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[ACE2_HADDOCK_FINAL.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;ibm-5348_P100-1997&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Protein Name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Protein Name]</local-name>
+            <parent-name>[ACE2_HADDOCK_FINAL.csv]</parent-name>
+            <remote-alias>Protein Name</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ACE2 PDB</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[ACE2 PDB]</local-name>
+            <parent-name>[ACE2_HADDOCK_FINAL.csv]</parent-name>
+            <remote-alias>ACE2 PDB</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Variant</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Variant]</local-name>
+            <parent-name>[ACE2_HADDOCK_FINAL.csv]</parent-name>
+            <remote-alias>Variant</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Spike RBD</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Spike RBD]</local-name>
+            <parent-name>[ACE2_HADDOCK_FINAL.csv]</parent-name>
+            <remote-alias>Spike RBD</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Spike RBD PDB</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Spike RBD PDB]</local-name>
+            <parent-name>[ACE2_HADDOCK_FINAL.csv]</parent-name>
+            <remote-alias>Spike RBD PDB</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>HADDOCK Job Name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[HADDOCK Job Name]</local-name>
+            <parent-name>[ACE2_HADDOCK_FINAL.csv]</parent-name>
+            <remote-alias>HADDOCK Job Name</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ACE2 Active Residues</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[ACE2 Active Residues]</local-name>
+            <parent-name>[ACE2_HADDOCK_FINAL.csv]</parent-name>
+            <remote-alias>ACE2 Active Residues</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>RBD Active Residues</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[RBD Active Residues]</local-name>
+            <parent-name>[ACE2_HADDOCK_FINAL.csv]</parent-name>
+            <remote-alias>RBD Active Residues</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Submitted</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Submitted]</local-name>
+            <parent-name>[ACE2_HADDOCK_FINAL.csv]</parent-name>
+            <remote-alias>Submitted</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Cluster</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Cluster]</local-name>
+            <parent-name>[ACE2_HADDOCK_FINAL.csv]</parent-name>
+            <remote-alias>Cluster</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Job Tar File</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Job Tar File]</local-name>
+            <parent-name>[ACE2_HADDOCK_FINAL.csv]</parent-name>
+            <remote-alias>Job Tar File</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>HADDOCK score</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[HADDOCK score]</local-name>
+            <parent-name>[ACE2_HADDOCK_FINAL.csv]</parent-name>
+            <remote-alias>HADDOCK score</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>HADDOCK score (+/-)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[HADDOCK score (+/-)]</local-name>
+            <parent-name>[ACE2_HADDOCK_FINAL.csv]</parent-name>
+            <remote-alias>HADDOCK score (+/-)</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Cluster size</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Cluster size]</local-name>
+            <parent-name>[ACE2_HADDOCK_FINAL.csv]</parent-name>
+            <remote-alias>Cluster size</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>RMSD from the overall lowest-energy structure</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[RMSD from the overall lowest-energy structure]</local-name>
+            <parent-name>[ACE2_HADDOCK_FINAL.csv]</parent-name>
+            <remote-alias>RMSD from the overall lowest-energy structure</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>RMSD from the overall lowest-energy structure (+/-)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[RMSD from the overall lowest-energy structure (+/-)]</local-name>
+            <parent-name>[ACE2_HADDOCK_FINAL.csv]</parent-name>
+            <remote-alias>RMSD from the overall lowest-energy structure (+/-)</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Van der Waals energy</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Van der Waals energy]</local-name>
+            <parent-name>[ACE2_HADDOCK_FINAL.csv]</parent-name>
+            <remote-alias>Van der Waals energy</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Van der Waals energy (+/-)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Van der Waals energy (+/-)]</local-name>
+            <parent-name>[ACE2_HADDOCK_FINAL.csv]</parent-name>
+            <remote-alias>Van der Waals energy (+/-)</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Electrostatic energy</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Electrostatic energy]</local-name>
+            <parent-name>[ACE2_HADDOCK_FINAL.csv]</parent-name>
+            <remote-alias>Electrostatic energy</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Electrostatic energy (+/-)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Electrostatic energy (+/-)]</local-name>
+            <parent-name>[ACE2_HADDOCK_FINAL.csv]</parent-name>
+            <remote-alias>Electrostatic energy (+/-)</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Desolvation energy</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Desolvation energy]</local-name>
+            <parent-name>[ACE2_HADDOCK_FINAL.csv]</parent-name>
+            <remote-alias>Desolvation energy</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Desolvation energy (+/-)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Desolvation energy (+/-)]</local-name>
+            <parent-name>[ACE2_HADDOCK_FINAL.csv]</parent-name>
+            <remote-alias>Desolvation energy (+/-)</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Restraints violation energy</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Restraints violation energy]</local-name>
+            <parent-name>[ACE2_HADDOCK_FINAL.csv]</parent-name>
+            <remote-alias>Restraints violation energy</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Restraints violation energy (+/-)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Restraints violation energy (+/-)]</local-name>
+            <parent-name>[ACE2_HADDOCK_FINAL.csv]</parent-name>
+            <remote-alias>Restraints violation energy (+/-)</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Buried Surface Area</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Buried Surface Area]</local-name>
+            <parent-name>[ACE2_HADDOCK_FINAL.csv]</parent-name>
+            <remote-alias>Buried Surface Area</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Surface Area (+/-)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Surface Area (+/-)]</local-name>
+            <parent-name>[ACE2_HADDOCK_FINAL.csv]</parent-name>
+            <remote-alias>Surface Area (+/-)</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Z-Score</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Z-Score]</local-name>
+            <parent-name>[ACE2_HADDOCK_FINAL.csv]</parent-name>
+            <remote-alias>Z-Score</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>prodigy_deltaG_kcalpermol</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[prodigy_deltaG_kcalpermol]</local-name>
+            <parent-name>[ACE2_HADDOCK_FINAL.csv]</parent-name>
+            <remote-alias>prodigy_deltaG_kcalpermol</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>prodigy_dissociation_constant_M</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[prodigy_dissociation_constant_M]</local-name>
+            <parent-name>[ACE2_HADDOCK_FINAL.csv]</parent-name>
+            <remote-alias>prodigy_dissociation_constant_M</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>prodigy_deltaG_kcalpermol_37C</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[prodigy_deltaG_kcalpermol_37C]</local-name>
+            <parent-name>[ACE2_HADDOCK_FINAL.csv]</parent-name>
+            <remote-alias>prodigy_deltaG_kcalpermol_37C</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>prodigy_dissociation_constant_M_37C</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[prodigy_dissociation_constant_M_37C]</local-name>
+            <parent-name>[ACE2_HADDOCK_FINAL.csv]</parent-name>
+            <remote-alias>prodigy_dissociation_constant_M_37C</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Ace2 Pdb' datatype='string' name='[ACE2 PDB]' role='dimension' type='nominal' />
+      <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+        <calculation class='tableau' formula='1' />
+      </column>
+      <column caption='prodigy deltaG kcalpermol' datatype='real' name='[prodigy_deltaG_kcalpermol]' role='measure' type='quantitative' />
+      <column caption='prodigy deltaG kcalpermol 37C' datatype='real' name='[prodigy_deltaG_kcalpermol_37C]' role='measure' type='quantitative' />
+      <column caption='prodigy dissociation constant M' datatype='real' name='[prodigy_dissociation_constant_M]' role='measure' type='quantitative' />
+      <column caption='prodigy dissociation constant M 37C' datatype='real' name='[prodigy_dissociation_constant_M_37C]' role='measure' type='quantitative' />
+      <layout dim-ordering='alphabetic' dim-percentage='0.349282' measure-ordering='alphabetic' measure-percentage='0.650718' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='ACE2 HADDOCK Cluster Size'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='ACE2_HADDOCK_FINAL' name='federated.0z9r3wn0od9g4s1fp5p59076ip7q' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0z9r3wn0od9g4s1fp5p59076ip7q'>
+            <column datatype='integer' name='[Cluster size]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Cluster]' role='measure' type='quantitative' />
+            <column-instance column='[Cluster size]' derivation='None' name='[none:Cluster size:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Cluster]' derivation='None' name='[none:Cluster:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.0z9r3wn0od9g4s1fp5p59076ip7q].[none:Cluster:qk]' field-type='quantitative' major-origin='1' major-spacing='1' max='14' min='0' range-type='fixed' scope='cols' type='space' />
+            <format attr='title' class='0' field='[federated.0z9r3wn0od9g4s1fp5p59076ip7q].[none:Cluster:qk]' scope='cols' value='Clusters' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#b07aa1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0z9r3wn0od9g4s1fp5p59076ip7q].[none:Cluster size:qk]</rows>
+        <cols>[federated.0z9r3wn0od9g4s1fp5p59076ip7q].[none:Cluster:qk]</cols>
+      </table>
+      <simple-id uuid='{B40F6190-5842-455C-B445-274FC35F1CD5}' />
+    </worksheet>
+    <worksheet name='ACE2 HADDOCK Clusters'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='ACE2_HADDOCK_FINAL' name='federated.0z9r3wn0od9g4s1fp5p59076ip7q' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0z9r3wn0od9g4s1fp5p59076ip7q'>
+            <column datatype='integer' name='[Cluster]' role='measure' type='quantitative' />
+            <column-instance column='[Cluster]' derivation='Count' name='[cnt:Cluster:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Cluster]' derivation='None' name='[none:Cluster:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.0z9r3wn0od9g4s1fp5p59076ip7q].[cnt:Cluster:qk]' scope='rows' value='Frequency' />
+            <encoding attr='space' class='0' field='[federated.0z9r3wn0od9g4s1fp5p59076ip7q].[none:Cluster:qk]' field-type='quantitative' major-origin='1' major-spacing='1' max='14' min='0' range-type='fixed' scope='cols' type='space' />
+            <format attr='title' class='0' field='[federated.0z9r3wn0od9g4s1fp5p59076ip7q].[none:Cluster:qk]' scope='cols' value='Clusters' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <mark-sizing custom-mark-size-in-axis-units='1.0' mark-alignment='mark-alignment-center' mark-sizing-setting='marks-scaling-on' use-custom-mark-size='true' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#b07aa1' />
+                <format attr='size' value='1.5' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0z9r3wn0od9g4s1fp5p59076ip7q].[cnt:Cluster:qk]</rows>
+        <cols>[federated.0z9r3wn0od9g4s1fp5p59076ip7q].[none:Cluster:qk]</cols>
+      </table>
+      <simple-id uuid='{2A908F58-CF63-4178-863E-E45584288505}' />
+    </worksheet>
+    <worksheet name='Antibody HADDOCK Cluster Size'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='HADDOCK_Results_FINAL' name='federated.10n2vsu0xneyub16owlh618cyk67' />
+          </datasources>
+          <datasource-dependencies datasource='federated.10n2vsu0xneyub16owlh618cyk67'>
+            <column datatype='integer' name='[Cluster size]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Cluster]' role='measure' type='quantitative' />
+            <column-instance column='[Cluster size]' derivation='None' name='[none:Cluster size:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Cluster]' derivation='None' name='[none:Cluster:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.10n2vsu0xneyub16owlh618cyk67].[none:Cluster:qk]' field-type='quantitative' major-origin='1' major-spacing='1' max='14' min='0' range-type='fixed' scope='cols' type='space' />
+            <format attr='title' class='0' field='[federated.10n2vsu0xneyub16owlh618cyk67].[none:Cluster:qk]' scope='cols' value='Clusters' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#e15759' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.10n2vsu0xneyub16owlh618cyk67].[none:Cluster size:qk]</rows>
+        <cols>[federated.10n2vsu0xneyub16owlh618cyk67].[none:Cluster:qk]</cols>
+      </table>
+      <simple-id uuid='{3D459255-9807-4FE1-BCB2-5E9FF86557A2}' />
+    </worksheet>
+    <worksheet name='Antibody HADDOCK Clusters'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='HADDOCK_Results_FINAL' name='federated.10n2vsu0xneyub16owlh618cyk67' />
+          </datasources>
+          <datasource-dependencies datasource='federated.10n2vsu0xneyub16owlh618cyk67'>
+            <column datatype='integer' name='[Cluster]' role='measure' type='quantitative' />
+            <column-instance column='[Cluster]' derivation='Count' name='[cnt:Cluster:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Cluster]' derivation='None' name='[none:Cluster:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.10n2vsu0xneyub16owlh618cyk67].[cnt:Cluster:qk]' scope='rows' value='Frequency' />
+            <encoding attr='space' class='0' field='[federated.10n2vsu0xneyub16owlh618cyk67].[none:Cluster:qk]' field-type='quantitative' major-origin='1' major-spacing='1' max='14' min='0' range-type='fixed' scope='cols' type='space' />
+            <format attr='title' class='0' field='[federated.10n2vsu0xneyub16owlh618cyk67].[none:Cluster:qk]' scope='cols' value='Clusters' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='3' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <mark-sizing custom-mark-size-in-axis-units='1.0' mark-alignment='mark-alignment-center' mark-sizing-setting='marks-scaling-on' use-custom-mark-size='true' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#e15759' />
+                <format attr='size' value='1.5' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.10n2vsu0xneyub16owlh618cyk67].[cnt:Cluster:qk]</rows>
+        <cols>[federated.10n2vsu0xneyub16owlh618cyk67].[none:Cluster:qk]</cols>
+        <show-full-range>
+          <column>[federated.10n2vsu0xneyub16owlh618cyk67].[Cluster (bin)]</column>
+        </show-full-range>
+      </table>
+      <simple-id uuid='{74C981E5-37F7-483F-846B-26496E6987F9}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard name='Dashboard'>
+      <style />
+      <size maxheight='800' maxwidth='1000' minheight='800' minwidth='1000' />
+      <zones>
+        <zone h='100000' id='4' type='layout-basic' w='100000' x='0' y='0'>
+          <zone h='49000' id='3' name='Antibody HADDOCK Clusters' w='49200' x='800' y='1000'>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone h='49000' id='5' name='Antibody HADDOCK Cluster Size' w='49200' x='50000' y='1000'>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone h='49000' id='6' name='ACE2 HADDOCK Clusters' w='49200' x='800' y='50000'>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone h='49000' id='7' name='ACE2 HADDOCK Cluster Size' w='49200' x='50000' y='50000'>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='1200' minheight='1200' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='13' type='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='12' param='vert' type='layout-flow' w='98400' x='800' y='1000'>
+                <zone fixed-size='280' h='49000' id='3' is-fixed='true' name='Antibody HADDOCK Clusters' w='49200' x='800' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='49000' id='5' is-fixed='true' name='Antibody HADDOCK Cluster Size' w='49200' x='50000' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='49000' id='6' is-fixed='true' name='ACE2 HADDOCK Clusters' w='49200' x='800' y='50000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='49000' id='7' is-fixed='true' name='ACE2 HADDOCK Cluster Size' w='49200' x='50000' y='50000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{ED5D78F2-B8CD-4BE8-98FA-4105EF20E77F}' />
+    </dashboard>
+  </dashboards>
+  <windows source-height='51'>
+    <window class='worksheet' name='Antibody HADDOCK Clusters'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{22F3B39C-27B7-4D98-BD82-3E43E5A219D2}' />
+    </window>
+    <window class='worksheet' name='Antibody HADDOCK Cluster Size'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{5A9A046D-88BD-4073-AEA5-0C2B22FB44B1}' />
+    </window>
+    <window class='worksheet' name='ACE2 HADDOCK Clusters'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{A91BCFD4-E42E-48F4-B367-056B2168D2BA}' />
+    </window>
+    <window class='worksheet' name='ACE2 HADDOCK Cluster Size'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{A81A8C31-B48F-454A-893D-B7F60FF800F7}' />
+    </window>
+    <window class='dashboard' maximized='true' name='Dashboard'>
+      <viewpoints>
+        <viewpoint name='ACE2 HADDOCK Cluster Size'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='ACE2 HADDOCK Clusters'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Antibody HADDOCK Cluster Size'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Antibody HADDOCK Clusters'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='-1' />
+      <simple-id uuid='{4A9A7BDE-E01D-4889-8D38-E9BA33364E99}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='ACE2 HADDOCK Cluster Size' width='192'>
+      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
+      W4qk7HAd79oAAAAASUVORK5CYII=
+    </thumbnail>
+    <thumbnail height='192' name='ACE2 HADDOCK Clusters' width='192'>
+      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
+      ZfN8Trln5T808GmhCrHpMQAAAABJRU5ErkJggg==
+    </thumbnail>
+    <thumbnail height='192' name='Antibody HADDOCK Cluster Size' width='192'>
+      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
+      rkJggg==
+    </thumbnail>
+    <thumbnail height='192' name='Antibody HADDOCK Clusters' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAAA7DAAAOwwHHb6hk
+      AAAIf0lEQVR4nO3dzXMbdx3H8c/qIbJsx5YcJ44TJyGhlDQJmVLolDa0BwjNcODvaJmBM8Pf
+      wPAfcIIj3JiBC+VETy0NdUqe+jDFSfCzLVuxrKf9/Xpw4mlHBe0q3pWs7/s1k0vS1W+j6C15
+      V/vtBt57L8CoXNwN6AXDpHsA3uuT+3c0deKkFhYWdeXqJQXOyTmnIAgS30HnnDKZDOvE9PSN
+      in+j/69rAF7S5ua61pceqlia0fJ2qFMTWUlSNps90J35Ou12W7lc7A8q8+uEYaggCFJ5YR7m
+      5y7So5XLZXkd09JqVc+P57SXBXD4Bb0cBHvv5ZzjE2CA1+ETIJrknx1ggBEATCMAmEYAMI0A
+      YBoBwDQCgGnJn7z9kl6vI+pluzQuAcDhl2oAD//4J7Xeey/xdYrXr2v2xpuJr4PDL9UAMltb
+      yj14mPg6weNq4mtgOHAMANMIAKYRAEwjAJgWKYBaZUWP/ruof83fU5j0HgEp6j4R5r0+uzuv
+      TTehMAxVaziN5vbmAeKen09rnth7r3a7HWsb51zsbXqR1jpPn2vnXOJrHebnLsJpUK+jpWk1
+      GgUF4a5y2UCZzN6XTHEHYtL6cioIgtiDE4d5qOPrMBATTddHC4KMzl18Uee+9Hv8nyEwLDgI
+      hmkEANMIAKYRAEwjAJhGADCNAGAaAcA0AoBpBADTCACmEQBMIwCYRgAwjQBgGgHAtEjjNasL
+      d7VYlTbXN/Tya6+qmPydkYBURJgJDnX71i1tu6LOnJnT5k6ownjATHCPmAkerHUijERm9cb1
+      n2p5u6G1lTXNTuQUPLlLJDPB8TETPFjrRHq0oDCuk8fHdfL4MUkSI8EYFhwEwzQCgGkEANMI
+      AKYRAEwjAJhGADCNAGAaAcA0AoBpBADTCACmEQBMIwCYRgAwjQBgWqTbpH5690N55fVwo6k3
+      rn2XajA0Ik2EHZs6prufPtSo2tqshSoXxExwj5gJHqx1IgVQqe7owoUL2tiqqlzMKsNMcM+Y
+      CR6sdSIMxQc6/9xFSdLMyRlJzARjePDjPEwjAJhGADCNAGAaAcA0AoBpBADTCACmEQBMIwCY
+      RgAwjQBgGgHANAKAaQQA07oH4L12azsKnVetVkthl4D0dJ8JlrT04L5W1mraaTq9+Oo1lQvp
+      THYBSYs0X5bNj6pZX1QuX5Jz/skvZoJ7wUzwYK3TfSRS0mT5uF45+5x2qlWVR7P7Ty4zwfEx
+      EzxY63R/tCDQZHlKknSkXDrQxYF+4ywQTCMAmEYAMI0AYBoBwDQCgGkEANMIAKYRAEzrCKBe
+      e6yt6k4/9gVIXUcAYaOmv/31z/rLO+8q+cuogP7qCKCytqIf/PiGTp2Y5ucjDL2Oi+EmSxP6
+      3R9+rx/+5Gf92J8D4ZxXq9WKtU0Yhj1drp3P52Nvg8HREcDa0rK+efmqpibH+rE/B6L+4bwe
+      vfP35Be6fEnf+OUvkl8HiekIYOrkKR1Zva+wGe8ddKC0mspUKokv43cYET3sOn7M96HT9taW
+      /JPZFe+9Fj77WFtbFd2+87HCtPcQSFDHJ0Amn9fM1KSWV9f1/Pk5SVJpclx35m/qcTCu822v
+      QsbLex973C6tkcj09PYcpDGmmOZIZJp/p4Nep+MTYHt9RfO3/q3FxZUnp0Gd3v/nvE6f/5Ym
+      8m21wmF7EcOyjk+A0aOTeuHKdzR39sJeHUFWP3rzhiRpbm7vE8F739O8aVozwemJ/xw451KZ
+      0+3136gXaf2dklin49Gau7vaqO6o9phvgzH8OgLI5Y9obOSIZk/P9mN/gFR9NQDvVa3VNJLP
+      q9ls9mmXgPR0HAN8/mhJjUaoo2PFfuwPkKqOAK5evap6s61sCgc1QL99NYAg0NT0iT7tCpA+
+      3uZhGgHANAKAaQQA0wgAphEATCMAmEYAMI0AYBoBwLTut0n1Tp/c/UiPd3a1sd3QK6+/rrHk
+      74cGpCLCS3lvquhoMadQeVXroYqjwUDfJjU9g3s7Vm6TGk2EAJxabWl69oK0UdHMeE6BBvs2
+      qekZ3NuxcpvUaLrfJzjI6uLlK5Kk6amyJGno3shhFgfBMI0AYBoBwDQCgGkEANMIAKYRAEwj
+      AJhGADCNAGAaAcA0AoBpBADTCACmEQBMixRAu1lXq93W0uKykp8vAtITIQCvex/8QwsL/9H7
+      tz+XYxgGQyTSTPDMzIyqhbJmx5a0tRuqVBAzwZKYCdb+GkM8EyxNnX1B5SCjmdJLGh3N7j+5
+      zAQzEywN+UywJGWye//Z6Cj3DcNw4SwQTCMAmEYAMI0AYBoBwDQCgGkEANMIAKYRAEwjAJhG
+      ADCNAGAaAcA0AoBpBADTIs4E76oVeq2trSe9P0CqIgzEeN374F3lps5qdWVD336prOnisE12
+      warIM8EVn1e90VAuszebyUywxEyw9tcY7pngc5c0FWR05vQpFQoZZoL3MRMsWZgJzuy90AuF
+      woEuDvQbZ4FgGgHANAKAaQQA05I/dB9m3mt3dzfWJmEYxj57JkkjIyNDeBat/wjgGYSVilbe
+      +nni67hSSXO//Y3y+Xzia1lDAM/EK2g2E18laLUSX8MqjgFgGgHANAKAaQQA0wgApnEW6JCo
+      1+uxLgV2zikIglS+O+jlu41cLjcQp3UJ4JBY/9WvFVSria8Tnj2j7MKDxNcZe/stTV97LfF1
+      uiGAw6LVSuf7gHY7nXX8YNxwN/IxgGvuaP6j+wqT3BsgZZE/AWqVVa1vbmq36VTM+p5G7YZv
+      JBK98s4rDOO9nTrnYm/TTeQAcqMlTRRXn4zZ7R1YxR2342IuPNXLuKb3/sBHPCMHMDJe0ve+
+      //L+jki8oPEMgt5ePwf9muN7AJhGADCNAGAaAcA0AoBpBADTCACmEQBMIwCYxtWg6Iv68oo2
+      bt6MtY1zLv7lE4WCgkbjf/75F5CE4ZYUHTuWAAAAAElFTkSuQmCC
+    </thumbnail>
+    <thumbnail height='192' name='Dashboard' width='192'>
+      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
+    </thumbnail>
+  </thumbnails>
+</workbook>
