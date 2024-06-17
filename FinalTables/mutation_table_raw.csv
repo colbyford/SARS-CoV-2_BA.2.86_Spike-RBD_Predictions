@@ -1,0 +1,65 @@
+ Amino Acid Mutation Position(Within Gene),B.1.1.529,JN.1,BA.2.86,Gene - protein if applicable,Function of Gene
+135,S,R,R,ORF1a - nsp1,"Catalyzes mRNA degradation, and subsequently halts innate immune responses (CITE 1)"
+211,A,D,D,ORF1a - nsp2,facilitates viral replication by inhibiting host antiviral response (CITE 2)
+842,T,I,I,ORF1a - nsp3,"binds host proteins, plays a role in viral replication (CITE 1)"
+1056,V,L,L,ORF1a - nsp3,“
+1307,G,S,S,ORF1a - nsp3,“
+1973,K,R,K,ORF1a - nsp3,“
+2526,N,S,S,ORF1a - nsp3,“
+2710,A,T,T,ORF1a - nsp3,“
+3027,L,F,F,ORF1a - nsp4,Plays a role in viral and cellular membrane interactions (CITE 1)
+3090,T,I,I,ORF1a - nsp4,“
+3593,V,F,F,ORF1a - nsp6,"Plays a role in formation and regulation of double membrane vesicles replication organelles, reduces IFN-beta production (Cite 2)"
+3675/3677 Deletion,No Deletion,Deletion,Deletion,ORF1a - nsp6,“
+3821,R,K,R,ORF1a - nsp6,
+4175,T,I,I,ORF1a - nsp9,Nucleic acid binding protein (CITE 1)
+1315,R,C,C,ORF1b - Hel,Plays a role in Viral RNA synthesis (Cite 2)
+2163,T,I,I,ORF1b - nsp15,Plays a role in Viral RNA synthesis (Cite 2)
+19,T,I,I,S,Binds to host receptor to allow viral entry (cite 2)
+21,R,T,T,S,“
+24,L,S,S,S,“
+25/27 Deletion,No Deletion,Deletion,Deletion,S,“
+50,S,L,L,S,“
+69/70 Deletion,No Deletion,Deletion,Deletion,S,“
+127,V,F,F,S,“
+144 Deletion,No Deletion,Deletion,Deletion,S,“
+157,F,S,S,S,“
+158,R,G,G,S,“
+211,N,I,I,S,“
+212 Deletion,No Deletion,Deletion,Deletion,S,“
+213,V,G,G,S,“
+216,L,F,F,S,“
+245,H,N,N,S,“
+264,A,D,D,S,“
+332,I,V,V,S,“
+339,G,H,H,S,“
+356,K,T,T,S,“
+371,S,F,F,S,“
+376,T,A,A,S,“
+403,R,K,K,S,“
+405,D,N,N,S,“
+408,R,S,S,S,“
+445,V,H,H,S,“
+446,G,S,S,S,“
+450,N,D,D,S,“
+452,L,W,W,S,“
+455,L,S,L,S,“
+460,N,K,K,S,“
+481,N,K,K,S,“
+483 Deletion,No Deletion,Deletion,Deletion,S,“
+484,E,J,J,S,“
+486,F,P,P,S,“
+554,E,K,K,S,“
+570,A,V,V,S,“
+621,P,S,S,S,“
+681,H,R,R,S,“
+939,S,F,F,S,“
+1143,P,L,L,S,“
+223,T,I,I,ORF3a,"Codes for an ion channel, Correlated with inflammasome activation, cell death. Very important for Viral Release (CITE 1)."
+3,D,H,H,M,A type III glycoprotein that forms the shape and structure of the viral envelope. Has a central organizing role in coronavirus assembly (CITE 1).
+30,T,A,A,M,“
+104,A,V,V,M,“
+61,D,L,L,ORF6,"Interacts with mRNA export proteins, may cause inhibition of cellular translation (CITE 1)"
+19,F,L,F,ORF7b,Function is not well defined (Cite 1)
+229,Q,K,K,N,"Codes for the N protein, which binds to genome to form a nucleocapsid, is essential for keeping the RNA in an ordered conformation for replication and transcription, acts as a molecular chaperone (CITE 1)"
+413,S,R,R,N,“

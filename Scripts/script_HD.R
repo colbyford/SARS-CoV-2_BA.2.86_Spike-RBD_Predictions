@@ -1,9 +1,5 @@
 #!/usr/local/bin/Rscript
 
-## Working directory
-#setwd("~/Desktop/Projects/Drug_Development/R_code")
-
-
 ## Libraries
 library(dplyr)
 library(ggplot2)
@@ -112,7 +108,7 @@ pro_boxplot <- ggboxplot(df,
   aes(x = factor(Variant, level = var_order)) + 
   labs(x="Variant", y=expression("PRODIGY Predicted "*Delta*"G Kcal/mol")) + 
   theme(axis.text.x = element_text(angle = 10, vjust = 0.7, hjust=0.5))
-#pro_boxplot + ggtitle("PRODIGY Predicted \u0394G vs Variant") + theme(plot.title = element_text(hjust = 0.5))
+#pro_boxplot + ggtitle("PRODIGY Predicted deltaG vs Variant") + theme(plot.title = element_text(hjust = 0.5))
 
 #Show all boxplots in one single table and save to image
 all_boxplots <- ggarrange(had_boxplot, 
